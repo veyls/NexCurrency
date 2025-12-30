@@ -22,21 +22,35 @@
         <div class="input-group">
             <label>Nereden</label>
             <select id="fromCurrency" onchange="convert()">
-                <option value="TRY">TRY - TL</option>
-                <option value="USD" selected>USD - Dolar</option>
+               <option value="USD" selected>USD - Dolar</option>
                 <option value="EUR">EUR - Euro</option>
+                <option value="TRY">TRY - TL</option>
                 <option value="GBP">GBP - Sterlin</option>
+                <option value="AUD">AUD - Avustralya Doları</option>
+                <option value="CAD">CAD - Kanada Doları</option>
+                <option value="CHF">CHF - İsviçre Frangı</option>
+                <option value="JPY">JPY - Japon Yeni</option>
+                <option value="KWD">KWD - Kuveyt Dinarı</option>
+                <option value="SAR">SAR - S. Arabistan Riyali</option>
                 <option value="BTC">BTC - Bitcoin</option>
+                <option value="ETH">ETH - Ethereum</option>
             </select>
         </div>
         <div class="input-group">
             <label>Nereye</label>
             <select id="toCurrency" onchange="convert()">
-                <option value="TRY" selected>TRY - TL</option>
-                <option value="USD">USD - Dolar</option>
+               <option value="USD" selected>USD - Dolar</option>
                 <option value="EUR">EUR - Euro</option>
-                <option value="JPY">JPY - Yen</option>
+                <option value="TRY">TRY - TL</option>
+                <option value="GBP">GBP - Sterlin</option>
+                <option value="AUD">AUD - Avustralya Doları</option>
+                <option value="CAD">CAD - Kanada Doları</option>
+                <option value="CHF">CHF - İsviçre Frangı</option>
+                <option value="JPY">JPY - Japon Yeni</option>
                 <option value="KWD">KWD - Kuveyt Dinarı</option>
+                <option value="SAR">SAR - S. Arabistan Riyali</option>
+                <option value="BTC">BTC - Bitcoin</option>
+                <option value="ETH">ETH - Ethereum</option>
             </select>
         </div>
     </div>
@@ -94,4 +108,5 @@ window.onload = convert;
 </script>
 
 </body>
+
 </html>
