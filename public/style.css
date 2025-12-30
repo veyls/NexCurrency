@@ -1,0 +1,13 @@
+  :root { --primary: #6366f1; --bg: #f8fafc; --card: #ffffff; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: var(--card); padding: 2.5rem; border-radius: 2rem; box-shadow: 0 20px 50px rgba(0,0,0,0.05); width: 100%; max-width: 420px; border: 1px solid #e2e8f0; }
+        h2 { color: #1e293b; margin-bottom: 2rem; display: flex; align-items: center; gap: 12px; font-size: 1.5rem; justify-content: center; }
+        .input-group { margin-bottom: 1.5rem; }
+        label { display: block; font-size: 0.7rem; color: #64748b; margin-bottom: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+        input, select { width: 100%; padding: 15px; border: 2px solid #f1f5f9; border-radius: 12px; outline: none; transition: 0.3s; box-sizing: border-box; font-size: 1rem; background: #f8fafc; }
+        input:focus { border-color: var(--primary); background: #fff; box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1); }
+        #result-box { margin-top: 2rem; padding: 1.5rem; border-radius: 15px; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; text-align: center; min-height: 70px; display: flex; flex-direction: column; justify-content: center; transition: 0.3s; }
+        .amount-text { font-size: 2rem; font-weight: 700; }
+        .rate-text { font-size: 0.8rem; opacity: 0.8; margin-top: 5px; }
+        .loader { display: none; margin: 0 auto; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid #fff; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }

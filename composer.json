@@ -1,0 +1,10 @@
+{
+    "name": "veyls/nex-currency",
+    "description": "Hafif ve hızlı döviz çevirici",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nex\\": "src/"
+        }
+    }
+}
